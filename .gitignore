@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+client/node_modules
+server/node_modules
+
+# Build outputs
+client/dist
+client/.vite
+client/.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE-specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: OS-specific junk
+*.swp
+*~
+
+# Output from tailwind CLI if accidentally used
+client/src/output.css
