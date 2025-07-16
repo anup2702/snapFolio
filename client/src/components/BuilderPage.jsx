@@ -4,7 +4,7 @@ import ProfileForm from "./ProfileForm";
 import ProjectForm from "./ProjectForm";
 import PreviewPanel from "./PreviewPanel";
 import ExportButton from "./ExportButton";
-import ExportToGitHub from "./ExportToGitHub";
+import ExportToGithub from "./ExportToGithub";
 import LoginButton from "./LoginButton";
 
 import { generateHTML, generateCSS } from "../utils/exportUtils.js";
@@ -76,7 +76,7 @@ const BuilderPage = () => {
         <PreviewPanel profile={profile} projects={projects} />
         <ExportButton profile={profile} projects={projects} />
         {isLoggedIn && (
-          <ExportToGitHub
+          <ExportToGithub
             html={generateHTML(profile, projects)}
             css={generateCSS()}
           />
