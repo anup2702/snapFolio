@@ -7,7 +7,7 @@ import ExportButton from "./ExportButton";
 import ExportToGitHub from "./ExportToGitHub";
 import LoginButton from "./LoginButton";
 
-import { generateHTML, generateCSS } from "../utilis/exportUtilis.js";
+import { generateHTML, generateCSS } from "../utils/exportUtils.js";
 
 const BuilderPage = () => {
   const [profile, setProfile] = useState({
